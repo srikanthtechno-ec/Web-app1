@@ -20,6 +20,21 @@
     <sonar.username>admin</sonar.username>
     <sonar.password>admin</sonar.password>
    </properties>
+  <distributionManagement>
+ <!-- Publish the versioned releases here -->
+ <repository>
+  <id>nexus</id>
+  <name>webapps-release</name>
+  <url>http://ec2-13-127-181-181.ap-south-1.compute.amazonaws.com:8081/repository/Webapps-release/</url>
+ </repository>
+
+ <!-- Publish the versioned releases here -->
+ <snapshotRepository>
+  <id>nexus</id>
+  <name>webapps-snapshot</name>
+  <url>http://ec2-13-127-181-181.ap-south-1.compute.amazonaws.com:8081/repository/Webapps-snapshot/</url>
+ </snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>MyWebapp</finalName>
   </build>

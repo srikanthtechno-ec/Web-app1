@@ -16,10 +16,10 @@
     </dependency>
   </dependencies>
   <properties>
-    <sonar.host.url>http://ec2-13-126-181-44.ap-south-1.compute.amazonaws.com:9000</sonar.host.url>
-    <sonar.username>Srikanth</sonar.username>
-    <sonar.token>8f0eaba70c51e387f81292a2591bbaccb2b0d305</sonar.token>
-    </properties>
+    <sonar.host.url>http://ec2-13-233-227-44.ap-south-1.compute.amazonaws.com:9000</sonar.host.url>
+    <sonar.username>admin</sonar.username>
+    <sonar.password>admin</sonar.password>
+   </properties>
   <build>
     <finalName>MyWebapp</finalName>
   </build>

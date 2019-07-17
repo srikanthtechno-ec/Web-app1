@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <!--<sonar.host.url>http://ec2-13-235-17-29.ap-south-1.compute.amazonaws.com:9000</sonar.host.url>-->
+    <sonar.host.url>http://ec2-13-235-17-29.ap-south-1.compute.amazonaws.com:9000</sonar.host.url>
     <sonar.username>admin</sonar.username>
     <sonar.password>admin</sonar.password>
    </properties>

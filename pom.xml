@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <sonar.host.url>http://ec2-13-233-206-72.ap-south-1.compute.amazonaws.com:9000</sonar.host.url>
+    <sonar.host.url>http://13.232.43.185:9000</sonar.host.url>
     <sonar.username>admin</sonar.username>
     <sonar.password>admin</sonar.password>
    </properties>
@@ -25,14 +25,14 @@
  <repository>
   <id>nexus</id>
   <name>webapps-release</name>
-  <url>http://ec2-13-232-99-81.ap-south-1.compute.amazonaws.com:8081/repository/Webapps-release/</url>
+  <url>http://13.127.18.39:8081/repository/Webapps-release/</url>
  </repository>
 
  <!-- Publish the versioned releases here -->
  <snapshotRepository>
   <id>nexus</id>
   <name>webapps-snapshot</name>
-  <url>http://ec2-13-232-99-81.ap-south-1.compute.amazonaws.com:8081/repository/Webapps-snapshot/</url>
+  <url>http://13.127.18.39:8081/repository/Webapps-snapshot/</url>
  </snapshotRepository>
 </distributionManagement>
   <build>

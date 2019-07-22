@@ -36,6 +36,6 @@
  </snapshotRepository>
 </distributionManagement>
   <build>
-    <finalName>MyWebapp</finalName>
+    <!--<finalName>MyWebapp</finalName>-->
   </build>
 </project>
